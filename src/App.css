@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.name-header,
+.email-header,
+.number-header,
+.action-header {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.student-list-item {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.actions {
+  display: flex;
+}
+
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+}
+
+.input-field {
+  margin-bottom: 10px;
+}
+
+.modal,
+.add-student-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% / 3); 
+  height: calc(100% / 3); 
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-button {
+  margin: 10px;
+}
